@@ -4,7 +4,7 @@ import * as S from "../styles"
 import "./styles.css"
 export default function EducationCard (){
     return(
-        <S.Card style={{
+            <S.Card style={{
             background: "blue"
         }}>
             <S.TitleCardDiv>
@@ -17,6 +17,6 @@ export default function EducationCard (){
             <S.LogoCardDiv>
                 <FaBookOpen className="icons" />
             </S.LogoCardDiv>
-        </S.Card>
+        </S.Card>        
     )
 }

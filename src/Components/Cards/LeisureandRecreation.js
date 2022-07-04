@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import {FaBookOpen} from "react-icons/fa"
 import * as S from "../styles"
 export default function LeisureandRecreationComponent (){

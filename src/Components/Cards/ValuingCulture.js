@@ -10,7 +10,7 @@ export default function ValuingCultureComponent (){
                 <S.NumberCard>
                     6
                 </S.NumberCard>
-                <S.TitleCard>Educação da Juventude</S.TitleCard>             
+                <S.TitleCard>Valorização da Cultura</S.TitleCard>             
             </S.TitleCardDiv>
             <S.LogoCardDiv>
                 <FaBookOpen className="icons" />
