@@ -1,20 +1,23 @@
 import React from "react"
 import {FaBookOpen} from "react-icons/fa"
-import * as S from "../styles"
-export default function YouthEducationComponent (){
+import {Link} from "react-router-dom"
+import * as S from "../../styles"
+export default function CommunityWellLive (){
     return(
+        <Link to="/Bemvivercomunitario" href="#Bemviver">
         <S.Card style={{
-            background: "#0a97d9"
+            background: "green"
         }}>
             <S.TitleCardDiv>
                 <S.NumberCard>
-                    5
+                    2
                 </S.NumberCard>
-                <S.TitleCard>Educação da Juventude</S.TitleCard>             
+                <S.TitleCard>Bem Viver Comunitário</S.TitleCard>             
             </S.TitleCardDiv>
             <S.LogoCardDiv>
                 <FaBookOpen className="icons" />
             </S.LogoCardDiv>
         </S.Card>
+        </Link>
     )
 }

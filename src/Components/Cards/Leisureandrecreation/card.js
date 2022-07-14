@@ -1,22 +1,21 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import {FaBookOpen} from "react-icons/fa"
-import * as S from "../styles"
-import "./styles.css"
-export default function EducationCard (){
+import * as S from "../../styles"
+export default function LeisureandRecreationComponent (){
     return(
-            <S.Card style={{
-            background: "blue"
+        <S.Card style={{
+            background: "orange"
         }}>
             <S.TitleCardDiv>
                 <S.NumberCard>
-                    1
+                    4
                 </S.NumberCard>
-                <S.TitleCard>Educação de Qualidade</S.TitleCard>             
+                <S.TitleCard>Lazer e Recreação</S.TitleCard>             
             </S.TitleCardDiv>
-           
             <S.LogoCardDiv>
                 <FaBookOpen className="icons" />
             </S.LogoCardDiv>
-        </S.Card>        
+        </S.Card>
     )
 }

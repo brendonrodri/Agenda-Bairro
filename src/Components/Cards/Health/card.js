@@ -1,6 +1,6 @@
 import React from "react"
 import {FaBookOpen} from "react-icons/fa"
-import * as S from "../styles"
+import * as S from "../../styles"
 export default function HealthComponent (){
     return(
         <S.Card style={{
