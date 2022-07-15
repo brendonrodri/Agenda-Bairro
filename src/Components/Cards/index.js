@@ -12,7 +12,7 @@ export default function CardsContainerComponent (){
                 Os Objetivos de Desenvolvimento Sustentável em Parada Angélica
             </S.TitleMain>
             <S.ParagraphDescription>
-                Os Objetivos de Desenvolvimento Sustentável são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Brasil
+                Os Objetivos são ideias para gerar um bem estar social e uma sustabilidade dentro do bairro de Parada Angélica, com medidas que podem ser construídas tanto pela população, de forma autônoma, quanto com a ajuda dos secretariados da Prefeitura e iniciativa privada. 
             </S.ParagraphDescription>
             <S.CardsContainer>
                 {EducationCard()}

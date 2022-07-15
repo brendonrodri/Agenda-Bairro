@@ -8,8 +8,9 @@ export default function NavBarComponent (){
                     <Link to="/">
                         <S.MenuItem>Home</S.MenuItem>
                     </Link> 
-                    <S.MenuItem>Sobre o bairro</S.MenuItem>
-                    <S.MenuItem>Objetivos</S.MenuItem>
+                    <Link to="/Sobre">
+                        <S.MenuItem>Sobre o bairro</S.MenuItem>
+                    </Link>
                 </S.Menu>
         </S.NavBar>
     )

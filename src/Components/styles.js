@@ -1,4 +1,14 @@
-import styled from "styled-components"
+import styled, {createGlobalStyle} from "styled-components"
+export const GlobalStyle = createGlobalStyle`
+    *{
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html{
+        font-family: 'Roboto', sans-serif;
+    }
+`;
 export const Main = styled.main`
     width: 100%;
     margin: 20px 0;
@@ -158,4 +168,29 @@ export const ListItem = styled.li`
     padding: 5px;
     margin: 3px 10px;
     font-size: 1.2em;
+`
+export const AboutContainer = styled.section`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+export const AboutTitle = styled.h2`
+    font-size: 2.25em;
+    text-align: center;
+`
+export const AboutTextArea = styled.article`
+    width: 80%;    
+    p{
+        font-size: 1.2em;
+        padding: 10px;
+        margin: 3px;
+        text-align: justify;
+    }
+    a{
+        color: #000;
+        text-decoration: none;
+        padding: 10px;
+        margin: 3px;
+    }
 `
