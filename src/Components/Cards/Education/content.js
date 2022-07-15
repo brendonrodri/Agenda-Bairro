@@ -2,23 +2,21 @@ import React from "react"
 import {FaBookOpen} from "react-icons/fa"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
-export default function CommunityWellContent(){
+export default function EducationContent(){
     return(
         <>
             <S.ContentContainer>
-                <S.ContentBanner style={{
-                    background: "green"
-                }}>
+                <S.ContentBanner>
                     <div>
                         <h3>
                             Objetivo de Desenvolvimento Sustentável
                         </h3>
                         <span>1</span>
                         <h2>
-                            Bem Viver Comunitário 
+                            Educação de Qualidade 
                         </h2>
                         <p>
-                            Garantir o bem estar e o bem viver da comunidade
+                            Acesso a educação de qualidade e inclusiva para a comunidade
                         </p>
                     </div>
                     <div>
@@ -30,20 +28,23 @@ export default function CommunityWellContent(){
                         Objetivo 
                    </h3>
                    <p>
-                     Tem como objetivo garantir o bem estar e o bem viver da comunidade, gerando bem estar social:
+                        Garantir acesso a educação de qualidade e inclusiva para a comunidade, visando impactar desde a educação básica, até a educação de nível médio, a fim de garantir uma base educacional para incluir os educandos em universidades e cursos técnicos. Como:
                    </p>
                    <S.List>
                         <S.ListItem>
-                            Garantir e incentivar o acesso para além da comunidade escolar das bibliotecas citadas no Objetivo 1 (inserir um link aqui).
+                            Inclusão da família nos processos educacionais, tornando a comunidade escolar e a comunidade familiar uma só. Visando que esses dois espaços são fundamentais no desenvolvimento educacional.
                         </S.ListItem>
                         <S.ListItem>
-                            Criar espaços de lazer comum, como: praças e hortas comunitárias em espaços abandonados.
+                            Criação de cursinhos populares, como pré-vestibulares sociais para garantir que a juventude possa garantir uma educação superior
                         </S.ListItem>
                         <S.ListItem>
-                            Criar espaços de cultura amplos, que visem incluir toda a comunidade, desde a pequena infância até a terceira idade. 
+                            Criação de programas de mentorias de carreira
                         </S.ListItem>
                         <S.ListItem>
-                            Gerar espaços de lazer para a classe trabalhadora, visto que os trabalhadores daqui tem rotinas excessivas e o horário de trabalho não os permite lazer, sendo assim.
+                            Criação de uma biblioteca comunitária.
+                        </S.ListItem>
+                        <S.ListItem>
+                            Criar cursinhos em determinadas áreas, como: tecnologia, idiomas, artes.
                         </S.ListItem>
                    </S.List>
                 </S.ContentText>

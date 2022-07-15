@@ -2,23 +2,23 @@ import React from "react"
 import {FaBookOpen} from "react-icons/fa"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
-export default function CommunityWellContent(){
+export default function HealthContent(){
     return(
         <>
             <S.ContentContainer>
                 <S.ContentBanner style={{
-                    background: "green"
-                }}>
+            background: "red"
+             }}>
                     <div>
                         <h3>
                             Objetivo de Desenvolvimento Sustentável
                         </h3>
                         <span>1</span>
                         <h2>
-                            Bem Viver Comunitário 
+                        Saúde de Qualidade
                         </h2>
                         <p>
-                            Garantir o bem estar e o bem viver da comunidade
+                            Acesso a saúde de qualidade.
                         </p>
                     </div>
                     <div>
@@ -30,20 +30,23 @@ export default function CommunityWellContent(){
                         Objetivo 
                    </h3>
                    <p>
-                     Tem como objetivo garantir o bem estar e o bem viver da comunidade, gerando bem estar social:
+                        Garantir acesso a educação de qualidade e inclusiva para a comunidade, visando impactar desde a educação básica, até a educação de nível médio, a fim de garantir uma base educacional para incluir os educandos em universidades e cursos técnicos. Como:
                    </p>
                    <S.List>
                         <S.ListItem>
-                            Garantir e incentivar o acesso para além da comunidade escolar das bibliotecas citadas no Objetivo 1 (inserir um link aqui).
+                            Garantir a funcionalidade dos PSF (Programa Saúde da Família) e acompanhamento das famílias.
                         </S.ListItem>
                         <S.ListItem>
-                            Criar espaços de lazer comum, como: praças e hortas comunitárias em espaços abandonados.
+                            Garantir acesso à informação sobre os direitos de acesso à saúde da população. 
                         </S.ListItem>
                         <S.ListItem>
-                            Criar espaços de cultura amplos, que visem incluir toda a comunidade, desde a pequena infância até a terceira idade. 
+                            Criar mutirões de marcação de médicos, exames médicos e exames de rotina, a fim de prevenir doenças e melhorar a saúde da comunidade. 
                         </S.ListItem>
                         <S.ListItem>
-                            Gerar espaços de lazer para a classe trabalhadora, visto que os trabalhadores daqui tem rotinas excessivas e o horário de trabalho não os permite lazer, sendo assim.
+                            Incluir a comunidade em programas de controle de doenças sazonais, como a dengue.
+                        </S.ListItem>
+                        <S.ListItem>
+                            Cobrar da prefeitura políticas públicas de saneamento básico.
                         </S.ListItem>
                    </S.List>
                 </S.ContentText>

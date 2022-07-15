@@ -3,8 +3,9 @@ import {Routes, Route} from "react-router-dom"
 import {createGlobalStyle} from "styled-components";
 import HeaderComponent from "./Components/Header";
 import CardsContainerComponent from "./Components/Cards/index"
-import EducationContent from "./Components/Cards/Education/conten";
+import EducationContent from "./Components/Cards/Education/content";
 import CommunityWellContent from "./Components/Cards/CommunityWellLive/content";
+import HealthContent from "./Components/Cards/Health/content";
 const GlobalStyle = createGlobalStyle`
     *{
         margin: 0;
@@ -24,8 +25,8 @@ export default function App (){
                 <Route path="/" element={<CardsContainerComponent />} />
                 <Route path="/Educacaodequalidade" element={<EducationContent />}/>
                 <Route path="/Bemvivercomunitario" element={<CommunityWellContent />}/>
+                <Route path="/Saudedequalidade" element={<HealthContent />}/>
             </Routes>
-            {CardsContainerComponent()}
            
         </>
     )

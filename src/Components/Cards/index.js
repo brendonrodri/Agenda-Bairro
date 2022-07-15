@@ -21,7 +21,6 @@ export default function CardsContainerComponent (){
                 {CommunityWellLive()}
                 {HealthComponent()}
                 {LeisureandRecreationComponent()}
-                {YouthEducationComponent()}
                 {ValuingCultureComponent()}
             
             </S.CardsContainer>

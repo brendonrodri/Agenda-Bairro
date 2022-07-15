@@ -21,6 +21,10 @@ export const NavBar = styled.nav`
    justify-content: center;
    align-items: center;
    border-bottom: 2px solid #000;
+   a{
+        text-decoration: none;
+        color: #000;
+    }
 `
 export const Menu = styled.ul`
     width: 50%;
@@ -35,17 +39,22 @@ export const MenuItem = styled.li`
 `
 export const TitleMain = styled.h1`
     font-size: 2.25em;
-    margin: 0 auto;
+    margin: 20px;
     width: 60%;
+    text-align: left;
+    position: relative;
+    left: 7%;
 `;
 export const ParagraphDescription = styled.p`
-    font-size: 1.3em;
-    margin: 20px auto;
+    font-size: 1.1em;
+    margin: 20px;
     line-height: 23px;
     width: 60%;
+    position: relative;
+    left: 7%;
 `;
 export const CardsContainer = styled.section`
-    width: 60%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,13 +62,19 @@ export const CardsContainer = styled.section`
     @media (max-width: 480px){
         justify-content: center;
     }
+    a{
+        text-decoration: none;
+    }
 `
 export const Card = styled.div`
-    width: 235px;
-    height: 235px;
+    width: 200px;
+    height: 200px;
     display: block;
     color: #fff;
     margin: 15px;
+    a{
+        text-decoration: none;
+    }
     @media (max-width: 480px){
         width: 80vw;
         height: 300px;
@@ -75,6 +90,7 @@ export const TitleCard = styled.h3`
     margin: 10px;
     text-align: center;
     letter-spacing: 1.3px;
+   
 `;
 export const NumberCard = styled.h3`
     font-size: 1.6em;
@@ -85,4 +101,64 @@ export const LogoCardDiv = styled.div`
     height: 60%;
     justify-content: center;
     align-items: center;
+`
+export const ContentBanner = styled.div`
+    width: 83%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: blue;
+    padding: 20px;
+    div{
+        margin: 10px;
+    }
+    h2{
+        font-size: 2em;
+        padding: 5px;
+    }
+    h3{
+        padding: 5px;
+    }
+    span{
+        font-size: 1.8em;
+        font-weight: bold;
+        padding: 5px;
+    }
+    p{
+        padding: 5px;
+    }
+
+`
+export const ContentContainer = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+`
+export const ContentText = styled.section`
+    width: 83%;
+    height: 70vh;
+    margin: 10px 0;
+    p{
+        font-size: 1.2em;
+        width: 70%;
+        padding: 10px;
+    }
+    h3{
+        padding: 10px;
+        font-size: 1.6em;
+    }
+`
+export const List = styled.ol`
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+`
+export const ListItem = styled.li`
+    padding: 5px;
+    margin: 3px 10px;
+    font-size: 1.2em;
 `
