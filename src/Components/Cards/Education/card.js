@@ -5,7 +5,7 @@ import * as S from "../../styles"
 import "../styles.css"
 export default function EducationCard (){
     return(
-            <Link to="/Educacaodequalidade">
+            <Link to="/Educacao-de-qualidade">
                 <S.Card style={{
                     background: "blue"
                 }}>

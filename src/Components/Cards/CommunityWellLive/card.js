@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import * as S from "../../styles"
 export default function CommunityWellLive (){
     return(
-        <Link to="/Bemvivercomunitario" href="#Bemviver">
+        <Link to="/Bem-viver-comunitario" href="#Bemviver">
         <S.Card style={{
             background: "green"
         }}>

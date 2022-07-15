@@ -5,8 +5,6 @@ import EducationCard from "./Education/card"
 import HealthComponent from "./Health/card"
 import LeisureandRecreationComponent from "./Leisureandrecreation/card"
 import ValuingCultureComponent from "./ValuingCulture/card"
-import YouthEducationComponent from "./YouthEducation/card"
-
 export default function CardsContainerComponent (){
     return(
         <S.Main>
