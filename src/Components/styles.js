@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import HeaderImage from "../Assets/background.jpeg"
 export const Main = styled.main`
     width: 100%;
     margin: 20px 0;
@@ -7,8 +6,6 @@ export const Main = styled.main`
 export const Header = styled.header`
     width: 100%;
     height: 15vh;
-
-  
     @media (max-width: 480px){
         width: 100%;
         text-align: center;

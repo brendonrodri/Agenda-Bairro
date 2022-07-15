@@ -13,7 +13,7 @@ export default function HealthContent(){
                         <h3>
                             Objetivo de Desenvolvimento Sustentável
                         </h3>
-                        <span>1</span>
+                        <span>3</span>
                         <h2>
                         Saúde de Qualidade
                         </h2>

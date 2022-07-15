@@ -4,10 +4,10 @@ import {createGlobalStyle} from "styled-components";
 import HeaderComponent from "./Components/Header";
 import CardsContainerComponent from "./Components/Cards/index"
 import EducationContent from "./Components/Cards/Education/content";
-import CommunityWellContent from "./Components/Cards/CommunityWellLive/content";
 import HealthContent from "./Components/Cards/Health/content";
-import LeisureandRecreationContent from "./Components/Cards/ValuingCulture/content"
 import ValuingCultureContent from "./Components/Cards/ValuingCulture/content";
+import LeisureandRecreationContent from "./Components/Cards/Leisureandrecreation/content";
+import AccessToTechnologyContent from "./Components/Cards/AcessToTechnology/content";
 const GlobalStyle = createGlobalStyle`
     *{
         margin: 0;
@@ -26,12 +26,11 @@ export default function App (){
             <Routes>
                 <Route path="/" element={<CardsContainerComponent />} />
                 <Route path="/Educacao-de-qualidade" element={<EducationContent />}/>
-                <Route path="/Bem-viver-comunitario" element={<CommunityWellContent />}/>
+                <Route path="/Acesso-a-tecnologia" element={<AccessToTechnologyContent />}/>
                 <Route path="/Saude-de-qualidade" element={<HealthContent />}/>
-                <Route path="/Lazer-e-recracao" element={<LeisureandRecreationContent />}/>
+                <Route path="/Lazer-e-recreacao" element={<LeisureandRecreationContent/>}/>
                 <Route path="/Valorizacao-da-cultura" element={<ValuingCultureContent />}/>
             </Routes>
-           
         </>
     )
 }

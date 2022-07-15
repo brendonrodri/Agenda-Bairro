@@ -4,7 +4,7 @@ import {FaBookOpen} from "react-icons/fa"
 import * as S from "../../styles"
 export default function LeisureandRecreationComponent (){
     return(
-        <Link to="/Lazer-e-recracao">
+        <Link to="/Lazer-e-recreacao">
             <S.Card style={{
             background: "orange"
             }}>

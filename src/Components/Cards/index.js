@@ -1,6 +1,6 @@
 import React from "react"
 import * as S from "../styles"
-import CommunityWellLive from "./CommunityWellLive/card"
+import AccessToTechnologyComponent from "./AcessToTechnology/card"
 import EducationCard from "./Education/card"
 import HealthComponent from "./Health/card"
 import LeisureandRecreationComponent from "./Leisureandrecreation/card"
@@ -16,13 +16,11 @@ export default function CardsContainerComponent (){
             </S.ParagraphDescription>
             <S.CardsContainer>
                 {EducationCard()}
-                {CommunityWellLive()}
+                {AccessToTechnologyComponent()}
                 {HealthComponent()}
                 {LeisureandRecreationComponent()}
                 {ValuingCultureComponent()}
-            
             </S.CardsContainer>
         </S.Main>
-        
     )
 }

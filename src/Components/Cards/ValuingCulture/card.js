@@ -10,7 +10,7 @@ export default function ValuingCultureComponent (){
             }}>
                 <S.TitleCardDiv>
                     <S.NumberCard>
-                        6
+                        5
                     </S.NumberCard>
                     <S.TitleCard>Valorização da Cultura</S.TitleCard>             
                 </S.TitleCardDiv>

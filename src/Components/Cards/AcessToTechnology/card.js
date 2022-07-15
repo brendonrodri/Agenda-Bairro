@@ -2,9 +2,9 @@ import React from "react"
 import {FaBookOpen} from "react-icons/fa"
 import {Link} from "react-router-dom"
 import * as S from "../../styles"
-export default function CommunityWellLive (){
+export default function AccessToTechnologyComponent (){
     return(
-        <Link to="/Bem-viver-comunitario" href="#Bemviver">
+        <Link to="/Acesso-a-tecnologia" href="#Bemviver">
         <S.Card style={{
             background: "green"
         }}>
@@ -12,7 +12,7 @@ export default function CommunityWellLive (){
                 <S.NumberCard>
                     2
                 </S.NumberCard>
-                <S.TitleCard>Bem Viver Comunitário</S.TitleCard>             
+                <S.TitleCard>Acesso a tecnologia</S.TitleCard>             
             </S.TitleCardDiv>
             <S.LogoCardDiv>
                 <FaBookOpen className="icons" />

@@ -1,5 +1,6 @@
 import React from "react"
 import {FaBookOpen} from "react-icons/fa"
+import { Link } from "react-router-dom";
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function LeisureandRecreationContent(){
@@ -7,18 +8,18 @@ export default function LeisureandRecreationContent(){
         <>
             <S.ContentContainer>
                 <S.ContentBanner style={{
-            background: "red"
-             }}>
+                    background: "orange"
+                }}>
                     <div>
                         <h3>
                             Objetivo de Desenvolvimento Sustentável
                         </h3>
-                        <span>1</span>
+                        <span>4</span>
                         <h2>
-                        Saúde de Qualidade
+                            Lazer e Recreação
                         </h2>
                         <p>
-                            Acesso a saúde de qualidade.
+                            Garantir o lazer da comunidade
                         </p>
                     </div>
                     <div>
@@ -30,23 +31,20 @@ export default function LeisureandRecreationContent(){
                         Objetivo 
                    </h3>
                    <p>
-                        Garantir acesso a educação de qualidade e inclusiva para a comunidade, visando impactar desde a educação básica, até a educação de nível médio, a fim de garantir uma base educacional para incluir os educandos em universidades e cursos técnicos. Como:
+                     Tem como objetivo garantir o lazer e o reacreação da comunidade, gerando bem estar social:
                    </p>
                    <S.List>
                         <S.ListItem>
-                            Garantir a funcionalidade dos PSF (Programa Saúde da Família) e acompanhamento das famílias.
+                            Garantir e incentivar o acesso para além da comunidade escolar das bibliotecas citadas no <Link to="/Educacao-de-qualidade"> Objetivo 1 </Link>.
                         </S.ListItem>
                         <S.ListItem>
-                            Garantir acesso à informação sobre os direitos de acesso à saúde da população. 
+                            Criar espaços de lazer comum, como: praças e hortas comunitárias em espaços abandonados.
                         </S.ListItem>
                         <S.ListItem>
-                            Criar mutirões de marcação de médicos, exames médicos e exames de rotina, a fim de prevenir doenças e melhorar a saúde da comunidade. 
+                            Criar espaços de cultura amplos, que visem incluir toda a comunidade, desde a pequena infância até a terceira idade. 
                         </S.ListItem>
                         <S.ListItem>
-                            Incluir a comunidade em programas de controle de doenças sazonais, como a dengue.
-                        </S.ListItem>
-                        <S.ListItem>
-                            Cobrar da prefeitura políticas públicas de saneamento básico.
+                            Gerar espaços de lazer para a classe trabalhadora, visto que os trabalhadores daqui tem rotinas excessivas e o horário de trabalho não os permite lazer.
                         </S.ListItem>
                    </S.List>
                 </S.ContentText>
