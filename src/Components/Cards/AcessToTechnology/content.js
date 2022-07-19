@@ -1,5 +1,6 @@
 import React from "react"
 import {FaLaptop} from "react-icons/fa"
+import { IconContext } from "react-icons"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function AccessToTechnologyContent(){
@@ -21,9 +22,11 @@ export default function AccessToTechnologyContent(){
                             Garantir o acesso a tecnologia.
                         </p>
                     </div>
-                    <div>     
-                        <FaLaptop />
-                    </div>
+                    <IconContext.Provider value={{size: "15vw"}}>
+                        <S.BannerIconDiv>     
+                            <FaLaptop />
+                        </S.BannerIconDiv>
+                    </IconContext.Provider>            
                 </S.ContentBanner> 
                 <S.ContentText>
                    <h3>

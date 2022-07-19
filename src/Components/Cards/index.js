@@ -8,6 +8,9 @@ import ValuingCultureComponent from "./ValuingCulture/card"
 export default function CardsContainerComponent (){
     return(
         <S.Main>
+            <S.MainTextContainer>
+                
+            </S.MainTextContainer>
             <S.TitleMain>
                 Os Objetivos de Desenvolvimento Sustentável em Parada Angélica
             </S.TitleMain>

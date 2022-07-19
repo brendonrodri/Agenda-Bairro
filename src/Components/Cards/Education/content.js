@@ -1,5 +1,6 @@
 import React from "react"
 import {FaBookOpen} from "react-icons/fa"
+import { IconContext } from "react-icons/lib"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function EducationContent(){
@@ -19,9 +20,11 @@ export default function EducationContent(){
                             Acesso a educação de qualidade e inclusiva para a comunidade
                         </p>
                     </div>
-                    <div>
-                        <FaBookOpen />
-                    </div>
+                    <IconContext.Provider value={{size: "15vw"}}>
+                        <S.BannerIconDiv>     
+                            <FaBookOpen />
+                        </S.BannerIconDiv>
+                    </IconContext.Provider>      
                 </S.ContentBanner> 
                 <S.ContentText>
                    <h3>

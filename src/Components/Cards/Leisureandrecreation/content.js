@@ -1,5 +1,6 @@
 import React from "react"
 import {FaTree} from "react-icons/fa"
+import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
@@ -22,9 +23,11 @@ export default function LeisureandRecreationContent(){
                             Garantir o lazer da comunidade
                         </p>
                     </div>
-                    <div>
-                        <FaTree />
-                    </div>
+                    <IconContext.Provider value={{size: "15vw"}}>
+                        <S.BannerIconDiv>     
+                            <FaTree />
+                        </S.BannerIconDiv>
+                    </IconContext.Provider>      
                 </S.ContentBanner> 
                 <S.ContentText>
                    <h3>

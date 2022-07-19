@@ -1,5 +1,6 @@
 import React from "react"
-import {FaBookOpen} from "react-icons/fa"
+import {FaPalette} from "react-icons/fa"
+import { IconContext } from "react-icons/lib"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function ValuingCultureContent(){
@@ -21,9 +22,11 @@ export default function ValuingCultureContent(){
                            Valorizar a cultura regional
                         </p>
                     </div>
-                    <div>
-                        <FaBookOpen />
-                    </div>
+                    <IconContext.Provider value={{size: "15vw"}}>
+                        <S.BannerIconDiv>     
+                            <FaPalette />
+                        </S.BannerIconDiv>
+                    </IconContext.Provider>      
                 </S.ContentBanner> 
                 <S.ContentText>
                    <h3>

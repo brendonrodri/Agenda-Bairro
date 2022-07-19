@@ -1,5 +1,6 @@
 import React from "react"
 import {FaBriefcaseMedical} from "react-icons/fa"
+import { IconContext } from "react-icons/lib"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function HealthContent(){
@@ -21,9 +22,11 @@ export default function HealthContent(){
                             Acesso a saúde de qualidade.
                         </p>
                     </div>
-                    <div>
-                        <FaBriefcaseMedical />
-                    </div>
+                    <IconContext.Provider value={{size: "13vw"}}>
+                        <S.BannerIconDiv>     
+                            <FaBriefcaseMedical />
+                        </S.BannerIconDiv>
+                    </IconContext.Provider>      
                 </S.ContentBanner> 
                 <S.ContentText>
                    <h3>
