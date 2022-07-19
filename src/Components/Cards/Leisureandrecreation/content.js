@@ -1,5 +1,5 @@
 import React from "react"
-import {FaBookOpen} from "react-icons/fa"
+import {FaTree} from "react-icons/fa"
 import { Link } from "react-router-dom";
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
@@ -23,7 +23,7 @@ export default function LeisureandRecreationContent(){
                         </p>
                     </div>
                     <div>
-                        <FaBookOpen />
+                        <FaTree />
                     </div>
                 </S.ContentBanner> 
                 <S.ContentText>

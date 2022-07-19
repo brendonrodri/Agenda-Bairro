@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from "react-router-dom"
-import {FaBookOpen} from "react-icons/fa"
+import {FaTree} from "react-icons/fa"
 import * as S from "../../styles"
 export default function LeisureandRecreationComponent (){
     return(
@@ -15,7 +15,7 @@ export default function LeisureandRecreationComponent (){
                     <S.TitleCard>Lazer e Recreação</S.TitleCard>             
                 </S.TitleCardDiv>
                 <S.LogoCardDiv>
-                    <FaBookOpen className="icons" />
+                    <FaTree className="icons" />
                 </S.LogoCardDiv>
             </S.Card>
         </Link>

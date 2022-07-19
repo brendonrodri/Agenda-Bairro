@@ -1,5 +1,5 @@
 import React from "react"
-import {FaBookOpen} from "react-icons/fa"
+import {FaPalette} from "react-icons/fa"
 import { Link } from "react-router-dom"
 import * as S from "../../styles"
 export default function ValuingCultureComponent (){
@@ -15,7 +15,7 @@ export default function ValuingCultureComponent (){
                     <S.TitleCard>Valorização da Cultura</S.TitleCard>             
                 </S.TitleCardDiv>
                 <S.LogoCardDiv>
-                    <FaBookOpen className="icons" />
+                    <FaPalette className="icons" />
                 </S.LogoCardDiv>
             </S.Card>
         </Link>

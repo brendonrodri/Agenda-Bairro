@@ -1,5 +1,5 @@
 import React from "react"
-import {FaBookOpen} from "react-icons/fa"
+import {FaLaptop} from "react-icons/fa"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function AccessToTechnologyContent(){
@@ -21,8 +21,8 @@ export default function AccessToTechnologyContent(){
                             Garantir o acesso a tecnologia.
                         </p>
                     </div>
-                    <div>
-                        <FaBookOpen />
+                    <div>     
+                        <FaLaptop />
                     </div>
                 </S.ContentBanner> 
                 <S.ContentText>

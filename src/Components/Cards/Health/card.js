@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {FaBookOpen} from "react-icons/fa";
+import {FaBriefcaseMedical} from "react-icons/fa";
 import * as S from "../../styles";
 export default function HealthComponent (){
     return(
@@ -15,7 +15,7 @@ export default function HealthComponent (){
                     <S.TitleCard>Saúde de Qualidade</S.TitleCard>             
                 </S.TitleCardDiv>
                 <S.LogoCardDiv>
-                    <FaBookOpen className="icons" />
+                    <FaBriefcaseMedical className="icons" />
                 </S.LogoCardDiv>
             </S.Card>
         </Link> 

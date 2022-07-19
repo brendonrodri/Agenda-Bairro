@@ -1,5 +1,5 @@
 import React from "react"
-import {FaBookOpen} from "react-icons/fa"
+import {FaBriefcaseMedical} from "react-icons/fa"
 import CardsContainerComponent from ".."
 import * as S from "../../styles"
 export default function HealthContent(){
@@ -22,7 +22,7 @@ export default function HealthContent(){
                         </p>
                     </div>
                     <div>
-                        <FaBookOpen />
+                        <FaBriefcaseMedical />
                     </div>
                 </S.ContentBanner> 
                 <S.ContentText>
