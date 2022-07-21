@@ -1,11 +1,13 @@
 import React from "react"
 import {FaPalette} from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import CardsContainerComponent from ".."
+import NavBarComponent from "../../NavBar/navbar"
+import { CardsContainer } from ".."
 import * as S from "../../styles"
 export default function ValuingCultureContent(){
     return(
         <>
+            <NavBarComponent />
             <S.ContentContainer>
                 <S.ContentBanner style={{
                  background: "#a21942"
@@ -48,7 +50,7 @@ export default function ValuingCultureContent(){
                    </S.List>
                 </S.ContentText>
             </S.ContentContainer>
-            <CardsContainerComponent />
+            <CardsContainer/>
         </>
     );
 }

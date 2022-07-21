@@ -1,12 +1,15 @@
 import React from "react"
 import {FaLaptop} from "react-icons/fa"
 import { IconContext } from "react-icons"
-import CardsContainerComponent from ".."
+import { CardsContainer } from ".."
 import * as S from "../../styles"
+import NavBarComponent from "../../NavBar/navbar"
 export default function AccessToTechnologyContent(){
     return(
         <>
+            <NavBarComponent/>
             <S.ContentContainer>
+                
                 <S.ContentBanner style={{
                     background: "green"
                 }}>
@@ -51,7 +54,8 @@ export default function AccessToTechnologyContent(){
                    </S.List>
                 </S.ContentText>
             </S.ContentContainer>
-            <CardsContainerComponent />
+            
+            <CardsContainer />
         </>
     );
 }

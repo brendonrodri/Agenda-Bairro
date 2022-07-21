@@ -1,11 +1,13 @@
 import React from "react"
 import {FaBookOpen} from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import CardsContainerComponent from ".."
+import NavBarComponent from "../../NavBar/navbar"
+import { CardsContainer } from ".."
 import * as S from "../../styles"
 export default function EducationContent(){
     return(
         <>
+            <NavBarComponent/>
             <S.ContentContainer>
                 <S.ContentBanner>
                     <div>
@@ -52,7 +54,7 @@ export default function EducationContent(){
                    </S.List>
                 </S.ContentText>
             </S.ContentContainer>
-            <CardsContainerComponent />
+            <CardsContainer/>
         </>
     );
 }

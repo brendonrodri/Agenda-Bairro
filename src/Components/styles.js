@@ -150,6 +150,7 @@ export const ContentBanner = styled.div`
     }
     @media (max-width: 480px){
         flex-direction: column;
+        width: 95%;
         height: 80vh;
         h3{
             font-size: 1.7em;
@@ -172,9 +173,6 @@ export const ContentContainer = styled.section`
     flex-direction: column;
     align-items: center;
     margin: 30px 0;
-    @media(max-width: 480px){
-        height: 215vh;
-    }
 `
 export const ContentText = styled.section`
     width: 83%;
@@ -191,7 +189,6 @@ export const ContentText = styled.section`
     }
     @media (max-width: 480px){
         width: 100%;
-        height: 45vh;
         margin: 20px 0px;
         p{
             font-size: 1.3em;
@@ -215,18 +212,17 @@ export const List = styled.ol`
     @media(max-width: 480px){
         height: 80vh;
         width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
         margin: 40px 0;
-        padding: 0px 10px;
+        padding: 0px 25px;
     }
 `
 export const ListItem = styled.li`
     padding: 5px;
-    margin: 3px 10px;
+    margin: 0px 10px;
     font-size: 1.2em;
     @media(max-width: 480px){
-        margin: 10px;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 `
 export const AboutContainer = styled.section`
@@ -260,4 +256,62 @@ export const MainTextContainer = styled.div`
     flex-direction: column;
     align-items: flex-start;
 
+`
+export const MenuMobileButton = styled.button`
+    width: 5vw;
+    position: absolute;
+    top: 7%;
+    background: none;
+    border: none;
+    padding: 15px;
+    margin: 20px;
+    svg{
+        width: 8vw;
+        height: 10vh;
+        color: #000;
+    }
+`
+export const MenuMobileList = styled.ul`
+    display: block;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    z-index: 11;
+    padding: 20px;
+   background-color: #139DE6;
+    -webkit-animation: fadeIn .7s ease-in-out;
+    -moz-animation: fadeIn .7s ease-in-out;
+    -o-animation: fadeIn .7s ease-in-out;
+    animation: menufadeIn .7s ease-in-out;
+    @-webkit-keyframes menufadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes menufadeIn {
+        0% { opacity: 0;}
+        100% { opacity: 1; }
+    }
+    @-o-keyframes menufadeIn {
+        0% { opacity: 0;
+            transform: translateY(-30px); }
+        100% { opacity: 1; }
+    }
+    @keyframes menufadeIn {
+        from { opacity: 0;          
+        }
+        to { opacity: 1;           
+        }
+    }
+`
+export const DropDownItem = styled.li`
+    font-size: 1em;
+    padding: 5px;
+    list-style: none ;
+    @media (max-width: 480px){
+        a{
+            color: #fff;
+            font-size: 1.2em;
+            
+        }
+    }
 `
