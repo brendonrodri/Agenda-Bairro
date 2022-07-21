@@ -89,6 +89,7 @@ export const CardsContainer = styled.section`
 export const Card = styled.div`
     width: 200px;
     height: 200px;
+    border-radius: 5%;
     display: block;
     color: #fff;
     margin: 15px;
