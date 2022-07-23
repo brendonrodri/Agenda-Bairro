@@ -17,7 +17,7 @@ export const Main = styled.main`
    }
 `;
 export const Header = styled.header`
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     @media (max-width: 480px){
         width: 100%;
@@ -25,7 +25,7 @@ export const Header = styled.header`
     }
 `;
 export const NavBar = styled.nav`
-   width:100vw ;
+   width:100%;
    height: 10vh;
    display: flex;
    justify-content: center;
@@ -55,9 +55,9 @@ export const TitleMain = styled.h1`
     position: relative;
     left: 7%;
     @media(max-width: 400px){
-        font-size: 2em;
-        margin: 20px 4px 20px 0px;
-        width: 90vw;
+        font-size: 2.2em;
+        margin: 20px;
+        width: 80%;
     }
 `;
 export const ParagraphDescription = styled.p`
